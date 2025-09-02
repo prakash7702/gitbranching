@@ -3,5 +3,6 @@ resource "aws_vpc" "vpc" {
 
     tags = {
         Name = "prakashvpc"
+        Owner = "prakash"
     }
 }
